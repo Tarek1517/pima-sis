@@ -52,7 +52,7 @@ const onSubmit = async() => {
 </script>
 <template>
     <AppLayout>
-        <div class="bg-secondary p-4">
+        <div class="bg-white p-4">
             <h3>Create new Package</h3>
             <div class="max-w-xl">
                 <div class="mb-6">

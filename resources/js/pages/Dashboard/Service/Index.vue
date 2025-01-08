@@ -37,10 +37,10 @@
 <template>
     <AppLayout>
         
-        <div class="flex items-center justify-between p-5 bg-secondary">
+        <div class="flex items-center justify-between p-5 bg-white">
             <div>
                 <div class="flex items-center">
-                    <h2 class="text-xl py-5 px-3">Services</h2>
+                    <h2 class="text-xl px-3">Services</h2>
                 </div>
                 <div>
                     <label for="table-search" class="sr-only">Search</label>
@@ -66,7 +66,7 @@
                     Add Record
             </RouterLink>
         </div>
-        <div class="relative overflow-x-auto bg-secondary">
+        <div class="relative overflow-x-auto bg-white">
             <table class="w-full text-left rtl:text-right">
                 <thead class=" text-white uppercase bg-gray-800 tracking-wider">
                 <tr>

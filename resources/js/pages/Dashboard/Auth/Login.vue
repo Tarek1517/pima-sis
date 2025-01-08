@@ -1,7 +1,7 @@
 <template>
     <GuestLayout>
         <div class=" w-full flex justify-center items-center  py-10 lg:py-20">
-            <div class="w-[90%] max-w-4xl bg-secondary flex flex-wrap rounded-xl shadow-xl p-4">
+            <div class="w-[90%] max-w-4xl bg-white flex flex-wrap rounded-xl shadow-xl p-4">
                 <div class="w-full lg:w-1/2 lg:pr-5 lg:pt-10">
                     <h3 class="text-2xl font-semibold mb-3">Login</h3>
                     <div class="">

@@ -34,14 +34,14 @@ onMounted(() => {
 </script>
 <template>
     <AppLayout>
-        <div class="flex items-center justify-between p-5 bg-secondary">
+        <div class="flex items-center justify-between p-5 bg-white">
             <div>
                 <div class="flex items-center">
                     <h2 class="text-xl py-5 px-3">Review</h2>
                 </div>
             </div>
         </div>
-        <div class="relative overflow-x-auto bg-secondary">
+        <div class="relative overflow-x-auto bg-white">
             <table class="w-full text-left rtl:text-right">
                 <thead class="text-white uppercase bg-gray-800">
                 <tr>
@@ -60,7 +60,7 @@ onMounted(() => {
                 </tr>
                 </thead>
                 <tbody>
-                <tr v-for="item in reviews">
+                <tr v-for="item in 4">
                     <td class="px-6 py-4 text-sm font-normal max-w-sm text-white">
                         {{ item?.review }}
                     </td>

@@ -68,7 +68,7 @@ onMounted(() => {
 </script>
 <template>
     <AppLayout>
-        <div class="flex flex-wrap p-4 bg-secondary">
+        <div class="flex flex-wrap p-4 bg-white">
             <div class="w-1/2 px-2">
                 <div class="mb-2">
                     <label for="phone_number">Phone Number</label>

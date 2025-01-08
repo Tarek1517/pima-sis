@@ -35,7 +35,7 @@ onMounted(() => {
     <AppLayout>
         <div class="flex flex-wrap border border-slate-600">
             <div class="w-1/3 border-r border-b border-slate-600" v-for="data in request">
-                <div class="bg-secondary p-2 relative">
+                <div class="bg-white p-2 relative">
                     <button @click="deleteRequest(data?.id)" class="absolute top-2 right-2">
                         <Icon name="material-symbols:delete-outline-sharp" />
                     </button>

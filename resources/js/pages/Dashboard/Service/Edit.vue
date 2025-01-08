@@ -69,7 +69,7 @@ onMounted(() => {
 </script>
 <template>
     <AppLayout>
-        <div class="p-4 bg-secondary shadow-md me-4">
+        <div class="p-4 bg-white shadow-md me-4">
             <h3 class="text-sm mb-5">Add New Service</h3>
             <div class="flex flex-wrap">
                 <div class="w-1/2 flex flex-col gap-3 px-2">

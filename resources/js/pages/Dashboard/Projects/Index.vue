@@ -34,7 +34,7 @@ onMounted(() => {
 </script>
 <template>
     <AppLayout>
-        <div class="flex items-center justify-between p-5 bg-secondary">
+        <div class="flex items-center justify-between p-5 bg-white">
             <div>
                 <div class="flex items-center">
                     <h2 class="text-xl py-5 px-3">Projects</h2>
